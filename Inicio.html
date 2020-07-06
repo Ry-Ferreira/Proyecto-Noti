@@ -5,24 +5,29 @@
 	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js">
 	<title>Lista de Tareas</title>
 </head>
 <body>
 	<div class="conteiner">
-		<div class="principal conteiner-fluid">
-			<div class="wrap">
+		<!-- INPUT TASK AND BUTTON -->
+		<div class="principal">
+			<div class="wrap w-75 ml-auto mr-auto">
 				<form class="formulario" action="">
-					<input type="text" class="form-control" placeholder="Agrega tu tarea" id="tareaInput" aria-describedby="inputGroup-sizing-sm">
-					<input type="button" class="btn btn-info rounded-pill" id="btn-agregar" value="Agregar Tarea">
+					<div class="d-flex align-items-center">
+						<div class="mr-auto ml-4 w-50">
+							<input type="text" class="form-control" placeholder="Agrega tu tarea" id="tareaInput" 		aria-describedby="inputGroup-sizing-sm">
+						</div>
+						<div class="p-2 mr-4 w-25">
+							<input type="button" class="btn btn-info rounded-pill w-100" id="btn-agregar" value="Agregar Tarea">
+						</div>
+					</div>
 				</form>
 			</div>
 		</div>
-	
-		<div class="tareas">
+		<!--LIST TASK-->
+		<div class="tareas ml-auto mr-auto w-50">
 			<div class="wrap">
-				<ul class="lista" id="lista">
+				<ul class="lista d-flex flex-column" id="lista">
 					<li><a href="#">Proyecto Matematicas 2 - viernes 10</a></li>
 					<li><a href="#">Libreta de conducir - martes 13</a></li>
 					<li><a href="#">Surtido</a></li>

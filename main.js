@@ -13,7 +13,6 @@
  
 		if (tarea === "") {
 			tareaInput.setAttribute("placeholder", "Agrega una tarea valida");
-			tareaInput.setAttribute = "required";
 			tareaInput.className = "border border-danger form-control";
 			return false;
 		}
@@ -38,7 +37,7 @@
 	};
 	var comprobarInput = function(){
 		tareaInput.className = "form-control";
-		teareaInput.setAttribute("placeholder", "Agrega tu tarea");
+		tareaInput.setAttribute("placeholder", "Agrega tu tarea");
 	};
  
 	var eleminarTarea = function(){
