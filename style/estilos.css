@@ -11,7 +11,7 @@ body {
   	background: -webkit-linear-gradient(to right, #a57a03, #decba4); /* Chrome 10-25, Safari 5.1-6 */	
   	background: linear-gradient(to right, #5a8a01, #decba4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+/* FORM GROUP */ 
 .principal {
 	background: rgb(24,187,76);
 	background: radial-gradient(circle, rgba(24,187,76,1) 29%, rgba(161,118,24,1) 76%);
@@ -24,6 +24,7 @@ body {
 	font-size: 5vw !important; 
 	color:rgb(0, 60, 255);
 }
+
 /* - TASK LIST - */
 
 .tareas .lista {

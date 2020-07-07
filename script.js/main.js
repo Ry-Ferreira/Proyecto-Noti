@@ -56,5 +56,5 @@
 	// Borrando Elementos de la lista
 		for (var i = 0; i <= lista.children.length -1; i++) {
 		lista.children[i].addEventListener("click", eleminarTarea);
-		}
+		};
 }());

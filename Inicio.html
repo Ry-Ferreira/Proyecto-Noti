@@ -2,7 +2,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="style/estilos.css">
 	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="conteiner main-conteiner">
-	<!-- INPUT TASK AND BUTTON -->
+		<!-- INPUT TASK AND BUTTON -->
 		<div class="principal d-flex align-items-end">
 			<div class="main-bg"></div>
 			<div class="w-75 ml-auto mr-auto">
@@ -20,7 +20,7 @@
 						<strong>Bienvenido a Notí</strong>
 					</h1>
 				</div>
-			
+				<!-- FORM GRUOP-->
 				<form class="formulario" action="">
 					<div class="d-flex align-items-center justify-content-center pt-3 pt-md-0 pb-3 pb-md-0">
 						<div class="w-75">
@@ -28,12 +28,11 @@
 							aria-describedby="inputGroup-sizing-sm">
 						</div>
 						<div class="p-2 w-25">
-							<input type="button" class="btn btn-success rounded-pill w-100" id="btn-agregar" value="✚">
+							<input type="button" class="btn btn-info rounded-pill w-100" id="btn-agregar" value="✚">
 						</div>
 					</div>
 				</form>
-			</div>
-				
+			</div>		
 		</div>
 		<!--LIST TASK-->
 		<div class="conteiner-fluid">
@@ -44,14 +43,14 @@
 			</div>
 
 			<div class="tareas ml-auto mr-auto w-75">
-					<ul class="lista d-flex flex-column" id="lista">
-						<li><a href="#">Proyecto Matematicas 2 - viernes 10</a></li>
-						<li><a href="#">Libreta de conducir - martes 13</a></li>
-						<li><a href="#">Surtido</a></li>
-					</ul>
+				<ul class="lista d-flex flex-column" id="lista">
+					<li><a href="#">Proyecto Matematicas 2 - viernes 10</a></li>
+					<li><a href="#">Libreta de conducir - martes 13</a></li>
+					<li><a href="#">Surtido</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
-	<script src="main.js"></script>
+	<script src="script.js/main.js"></script>
 </body>
 </html>
