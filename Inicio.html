@@ -5,33 +5,51 @@
 	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 	<title>Lista de Tareas</title>
 </head>
 <body>
 	<div class="conteiner">
-		<!-- INPUT TASK AND BUTTON -->
-		<div class="principal">
-			<div class="wrap w-75 ml-auto mr-auto">
-				<form class="formulario" action="">
-					<div class="d-flex align-items-center">
-						<div class="mr-auto ml-4 w-50">
-							<input type="text" class="form-control" placeholder="Agrega tu tarea" id="tareaInput" 		aria-describedby="inputGroup-sizing-sm">
+	<!-- INPUT TASK AND BUTTON -->
+		<div class="principal d-none d-md-block">
+				<div class="main-bg h-100">
+					<div class="w-75 ml-auto mr-auto">
+						<div class="d-flex align-items-center justify-content-center">
+							<h1 class="tittle conteiner-fluid mt-3">
+								<strong>Bienvenido a Notí</strong>
+							</h1>
 						</div>
-						<div class="p-2 mr-4 w-25">
-							<input type="button" class="btn btn-info rounded-pill w-100" id="btn-agregar" value="Agregar Tarea">
-						</div>
+					
+						<form class="formulario" action="">
+							<div class="d-flex align-items-center">
+								<div class="mr-auto ml-4 w-50">
+									<input type="text" class="form-control" placeholder="Agrega tu tarea" id="tareaInput" 		
+									aria-describedby="inputGroup-sizing-sm">
+								</div>
+								<div class="p-2 mr-4 w-25">
+									<input type="button" class="btn btn-info rounded-pill w-100" id="btn-agregar" value="Agregar Tarea">
+								</div>
+							</div>
+						</form>
 					</div>
-				</form>
-			</div>
+				</div>	
 		</div>
 		<!--LIST TASK-->
-		<div class="tareas ml-auto mr-auto w-50">
-			<div class="wrap">
-				<ul class="lista d-flex flex-column" id="lista">
-					<li><a href="#">Proyecto Matematicas 2 - viernes 10</a></li>
-					<li><a href="#">Libreta de conducir - martes 13</a></li>
-					<li><a href="#">Surtido</a></li>
-				</ul>
+		<div class="conteiner-fluid task-main h-75">
+			<div class="d-flex align-items-center align-items-center w-75 ml-auto mr-auto ">
+				<h1 class="conteiner-fluid mb-2 mt-3">
+					Tareas:
+				</h1>
+			</div>
+
+			<div class="tareas ml-auto mr-auto w-75">
+				<div class="wrap">
+					<ul class="lista d-flex flex-column" id="lista">
+						<li><a href="#">Proyecto Matematicas 2 - viernes 10</a></li>
+						<li><a href="#">Libreta de conducir - martes 13</a></li>
+						<li><a href="#">Surtido</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
