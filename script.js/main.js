@@ -1,3 +1,4 @@
+
 (function(){
 	// Variables
 	var lista = document.getElementById("lista"),
@@ -52,9 +53,17 @@
  
 	// Comprobar Input
 		tareaInput.addEventListener("click", comprobarInput);
- 
+	
 	// Borrando Elementos de la lista
 		for (var i = 0; i <= lista.children.length -1; i++) {
 		lista.children[i].addEventListener("click", eleminarTarea);
 		};
+	
+	// Agregando la fecha en el sitio 
+		var elementoP = document.createElement('p'),
+			contenido = document.moment().format('dddd'),
+			fecha = document.getElementById('todayDate');
+		
+		elementoP.appendChild(contenido);
+		fecha.appendChild(elementoP);
 }());
